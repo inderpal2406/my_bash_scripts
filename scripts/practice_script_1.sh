@@ -11,7 +11,7 @@ echo "Your home directory is $HOME."		#Display home dir
 echo						#Leave a line
 echo "Your terminal type is $TERM."		#Display term type
 echo 						#Leave a line
-echo "The script will not display services started in run level3. Press enter to continue."		#Display message
+echo "The script will now display services started in run level3. Press enter to continue."		#Display message
 read		#read enter key
 echo		#Leave a line
 count=`ls -l /etc/rc3.d/ | tail +2 | wc -l`	#Count no of services started in run level 3
