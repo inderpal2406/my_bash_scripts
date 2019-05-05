@@ -2,7 +2,15 @@
 
 Contains bash scripts.
 
-1. [hello_world.sh](scripts/hello_world.sh): Clear screen and display "Hello World!".
+1. [hello_user.sh](scripts/hello_user.sh): Clear screen and display "Hello USERNAME!". Besides it'll also display a random quote for the day.
 2. [login_info.sh](scripts/login_info.sh): Could be placed in ~/.bash_profile. Greets user and displays other info when user logs in to the system.
+3. [weather.sh] (scripts/weather.sh): Displays weather of current location or an entered location of our choice.
 
+System Administration.
+1. [runlevel_service.sh] (scripts/runlevel_service.sh): Interactive script to display HOME directory, terminal type and current runlevel services.
 
+Mathematics.
+1. [table.sh] (scripts/table.sh): Displays table of an entered number upto 10 multiples.
+2. [even_odd.sh] (scripts/even_odd.sh): Detects if an entered no is even or odd. Catches exception if a decimal no is entered and re-asks for input.
+3. [divide.sh] (scripts/divide.sh): Asks for 2 nos and divides them. Displays the quotient and remainder.
+4. [subtract.sh] (scripts/subtract.sh): Asks for 2 nos and displays their difference. Displays additional text if difference is negative.

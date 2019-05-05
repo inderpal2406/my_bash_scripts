@@ -1,6 +1,12 @@
 #!/bin/bash
 
-#This script will greet the user when he logs in to the system and display system stats.
+###############################################################################
+# File          : login_info.sh
+# Author        : Inderpal Singh Saini <inderpal2406@gmail.com>
+# Created       : 5 May, 2019
+# Updated       : 5 May, 2019
+# Description   : Display system related stats when user logs in.
+################################################################################
 
 echo "Hello $USER. We hope you're doing well."
 echo
@@ -18,3 +24,5 @@ then
 else
 	echo "No other user currently logged in except you."
 fi
+
+# The script ends here.

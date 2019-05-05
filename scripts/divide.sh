@@ -1,6 +1,13 @@
 #!/bin/bash
 
-#This script will divide 2 numbers and display further results depending on divisor and dividend.
+###############################################################################
+# File          : divide.sh
+# Author        : Inderpal Singh Saini <inderpal2406@gmail.com>
+# Created       : 6 May, 2019
+# Updated       : 6 May, 2019
+# Description	: This script will divide 2 numbers and display further results depending on divisor and dividend.
+################################################################################
+
 clear										#clear screen
 echo "This script will divide 2 numbers. Press 'Enter' to continue."		#display purpose of script
 read										#read enter key
