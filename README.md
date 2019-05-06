@@ -12,6 +12,6 @@ System Administration.
 Mathematics.
 1. [table.sh](scripts/table.sh): Displays table of an entered positive/negative number (decimal/non-decimal) upto desired no. of multiples.
 2. [even_odd.sh](scripts/even_odd.sh): Detects if an entered no is even or odd. Catches exception if a decimal no is entered and re-asks for input.
-3. [divide.sh](scripts/divide.sh): Asks for 2 nos, divides them, displays quotient & remainder. Catches exception of entered decimal nos & re-asks for input.
+3. [divide.sh](scripts/divide.sh): Asks for 2 nos, divides them, displays quotient & remainder. Catches exception of entered decimal nos & re-asks for input.Does further processing based on remainder and quotient.
 4. [subtract.sh](scripts/subtract.sh): Asks for 2 nos (decimal/non-decimal) and displays their difference. Displays additional text if difference is negative
 5. [add.sh](scripts/add.sh): Interactive script to add desired number of positive or negative numbers (decimal/non-decimal).
