@@ -4,6 +4,7 @@ Contains bash scripts written and tested on Ubuntu 18.04 LTS.
 1. [hello_user.sh](scripts/hello_user.sh): Clear screen and display "Hello USERNAME!". Besides it'll also display a random quote for the day.
 2. [login_info.sh](scripts/login_info.sh): Could be placed in ~/.bash_profile. Greets user and displays other info when user logs in to the system.
 3. [weather.sh](scripts/weather.sh): Displays weather of current location (where server resides) or an entered location of our choice.
+4. [case_converter.sh](scripts/case_converter.sh): Interactive script to change text case from lower to upper OR upper to lower OR both simultaneously of a user entered text file_name.
 
 ## System Administration.
 1. [runlevel_service.sh](scripts/runlevel_service.sh): Interactive script to display user's HOME directory, terminal type and current runlevel services.
