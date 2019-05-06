@@ -14,3 +14,4 @@ Mathematics.
 2. [even_odd.sh](scripts/even_odd.sh): Detects if an entered no is even or odd. Catches exception if a decimal no is entered and re-asks for input.
 3. [divide.sh](scripts/divide.sh): Asks for 2 nos and divides them. Displays the quotient and remainder.
 4. [subtract.sh](scripts/subtract.sh): Asks for 2 nos and displays their difference. Displays additional text if difference is negative.
+5. [add.sh](scripts/add.sh): Interactive script to add desired number of positive or negative natural numbers.
