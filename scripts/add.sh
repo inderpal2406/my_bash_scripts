@@ -5,7 +5,7 @@
 # Author        : Inderpal Singh Saini <inderpal2406@gmail.com>
 # Created       : 6 May, 2019
 # Updated       : 6 May, 2019
-# Description   : adds desired no of natural numbers.
+# Description   : adds desired no of numbers.
 ################################################################################
 
 
@@ -31,7 +31,8 @@ done
 sum=0
 for (( i=1; i<=$count; i++ ))
 do
-	sum=`expr $sum + ${nums[$i]}`
+	sum=`echo "$sum+${nums[$i]}" | bc`
+#	sum=`expr $sum + ${nums[$i]}`
 done
 
 
