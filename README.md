@@ -15,6 +15,7 @@ Contains bash scripts written and tested on Ubuntu 18.04 LTS.
 3. [divide.sh](scripts/divide.sh): Asks for 2 nos, divides them, displays quotient & remainder. Catches exception of entered decimal nos & re-asks for input.Does further processing based on remainder and quotient.
 4. [subtract.sh](scripts/subtract.sh): Asks for 2 nos (decimal/non-decimal) and displays their difference. Displays additional text if difference is negative
 5. [add.sh](scripts/add.sh): Interactive script to add desired number of positive or negative numbers (decimal/non-decimal).
+6. [average.sh](scripts/average.sh): Calculates average of 'n' entered numbers (decimal/non-decimal). Catches exception of entering -ve nos and re-asks for input.
 
 ## License
 This project is licensed under the MIT license. Read it here: [LICENSE.md](LICENSE.md)
