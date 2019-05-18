@@ -18,6 +18,8 @@ Contains bash scripts written and tested on Ubuntu 18.04 LTS.
 5. [add.sh](scripts/add.sh): Interactive script to add desired number of positive or negative numbers (decimal/non-decimal).
 6. [average.sh](scripts/average.sh): Calculates average of 'n' entered numbers (decimal/non-decimal). Catches exception of entering negative nos and re-asks for input.
 7. [sum_of_digits.sh](scripts/sum_of_digits.sh): Calculates sum of digits of an entered positive/negative number. Catches exception if a decimal number is entered and re-asks for non-decimal input.
+8. [bin_to_dec.sh](scripts/bin_to_dec.sh): Convert a user entered binary number to its equivalent decimal number.
+9. [dec_to_bin.sh](scripts/dec_to_bin.sh): Convert a user entered decimal number to its equivalent binary number.
 
 ## License
 This project is licensed under the MIT license. Read it here: [LICENSE.md](LICENSE.md)
