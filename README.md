@@ -23,3 +23,29 @@ Contains bash scripts written and tested on Ubuntu 18.04 LTS.
 
 ## License
 This project is licensed under the MIT license. Read it here: [LICENSE.md](LICENSE.md)
+
+## How to install bash?
+This is a general not on instalation of bash on Debian or Fedora Linux pltforms. Mostly the linux distributions come with GNU bash pre-installed, but if want to install latest or any desired version other than the current one on our system, we can follow below guide. But before starting the installation, we need few pre-requisites which are the build tools to be installed on our system.
+
+So, for Debian users, execute <br>
+`sudo apt-get install -y build-essential`
+
+For Fedora users, execute <br>
+`sudo yum groupinstall "Development Tools" "Legacy Software Development"`
+
+Now browse to http://ftp.gnu.org/gnu/bash link and locate our desired bash version source package. Suppose we want to install the version 4.1. Then, on our system execute below commands,
+
+```
+cd /tmp
+wget http://ftp.gnu.org/gnu/bash-4.1.tar.gz
+tar -xvf bash-4.1.tar.gz
+cd bash-4.1*
+./configure
+make
+sudo make install
+bash --version
+```
+
+This should return the version 4.1 as output.
+
+When we extract contents of bash tar file, we get C program files along with other scripts which help to compile, build and install bash on system. Similarly other interpreters can also be installed on system.
