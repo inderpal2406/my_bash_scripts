@@ -33,7 +33,7 @@ else
 	echo
 	for (( i=1; i<=$#; i++ ))
 	do
-		echo "Parameter $i: ${!i}"
+		echo "Parameter $i: ${!i}"	# indirect reference of variables
 	done
 fi
 
