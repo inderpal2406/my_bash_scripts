@@ -6,6 +6,7 @@ Contains bash scripts written and tested on Ubuntu 18.04 LTS.
 3. [weather.sh](scripts/weather.sh): Displays weather of current location (where server resides) or an entered location of our choice.
 4. [case_converter.sh](scripts/case_converter.sh): Interactive script to change text case from lower to upper OR upper to lower OR both simultaneously of a user entered text file_name.
 5. [pattern.sh](scripts/pattern.sh): Displays a kite shaped pattern of * depending on user's input.
+6. [positional.sh](scripts/positional.sh): Displayes number of positional arguments entered at CLI and exits if none is entered. Also displays individual arguments separately.
 
 ## System Administration.
 1. [runlevel_service.sh](scripts/runlevel_service.sh): Interactive script to display user's HOME directory, terminal type and current runlevel services.
