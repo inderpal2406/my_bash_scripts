@@ -1,9 +1,9 @@
 #!/bin/bash
 
 ###############################################################################
-# File          : test_root_1.sh
+# File          : test_root_2.sh
 # Author        : Inderpal Singh Saini <inderpal2406@gmail.com>
-# Created       : 25 Nov, 2019
+# Created       : 20 Dec, 2019
 # Updated       : 20 Dec, 2019
 # Description   : Checks if the user who calls/executes the script is root or not.
 #		  If we execute this script using sudo, then it's the root user who executes this script.
@@ -11,12 +11,12 @@
 #		  This logic can be used in scripts which needs to be executed as root user and should immediately terminate if some other user invokes it. 
 ################################################################################
 
-user_id=`id -u`
 
-if [ $user_id -ne 0 ]
+if [ "$(whoami)" != "root" ]
 then
-	echo "This is not root user."
-	exit 1	#we can instruct here that the script needs to be called using root user only.
+	echo "You don't have permission to run to run $0 as a non root user."
+	exit 1
 else
+	echo "\$0 = $0"
 	echo "This is root user."
 fi
