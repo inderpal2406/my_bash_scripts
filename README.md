@@ -8,6 +8,8 @@ Contains bash scripts written and tested on Ubuntu 18.04 LTS.
 5. [pattern.sh](scripts/pattern.sh): Displays a kite shaped pattern of * depending on user's input.
 6. [positional.sh](scripts/positional.sh): Displayes number of positional arguments entered at CLI and exits if none is entered. Also displays individual arguments separately.
 7. [alternate_week.sh](scripts/alternate_week.sh): Notifies us via mail on sunday's of alternate weeks to perform specific tasks.
+8. [penguin.sh](scripts/penguin.sh): A playful script which presents food item to Tux (penguin) as a command line argument.
+9. [weight.sh](scripts/weight.sh): A script which accepts weight in kilos and height in cms and displays a message if we are overweight or underweight.
 
 ## System Administration.
 1. [runlevel_service.sh](scripts/runlevel_service.sh): Interactive script to display user's HOME directory, terminal type and current runlevel services.
