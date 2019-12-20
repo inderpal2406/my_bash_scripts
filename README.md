@@ -10,6 +10,7 @@ Contains bash scripts written and tested on Ubuntu 18.04 LTS.
 7. [alternate_week.sh](scripts/alternate_week.sh): Notifies us via mail on sunday's of alternate weeks to perform specific tasks.
 8. [penguin.sh](scripts/penguin.sh): A playful script which presents food item to Tux (penguin) as a command line argument.
 9. [weight.sh](scripts/weight.sh): A script which accepts weight in kilos and height in cms and displays a message if we are overweight or underweight.
+10. [file_info.sh](scripts/file_info.sh): A script to display information about a file, supplied as a command line argument.
 
 ## System Administration.
 1. [runlevel_service.sh](scripts/runlevel_service.sh): Interactive script to display user's HOME directory, terminal type and current runlevel services.
