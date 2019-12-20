@@ -10,7 +10,7 @@
 ################################################################################
 
 clear
-echo "Correct usage of script: ./weight.sh weight(in kilos) height(in cms)"
+echo "Usage: $0 weight(in kilos) height(in cms)"
 echo "Press enter to continue or CTRL+C to exit."
 read
 
