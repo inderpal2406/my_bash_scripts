@@ -18,6 +18,7 @@ Contains bash scripts written and tested on Ubuntu 18.04 LTS.
 3. [test_root_2.sh](scripts/test_root_2.sh): Alternate logic to test root user.
 4. [disk_alert.sh](scripts/disk_alert.sh): Sends a mail if at least one disk is found to be 80% (or more) utilized.
 5. [top_three_disks.sh](scripts/top_three_disks.sh): Lists top three disks (and their details) according to their % utilization.
+6. [disk_report.sh](scripts/disk_report.sh): Checks all disks' utilization and sends report of critical disks via mail.
 
 ## Mathematics.
 1. [table.sh](scripts/table.sh): Displays table of an entered positive/negative number (decimal/non-decimal) upto desired no. of multiples.
