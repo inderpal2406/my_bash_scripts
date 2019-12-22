@@ -21,6 +21,7 @@ Contains bash scripts written and tested on Ubuntu 18.04 LTS.
 5. [top_three_disks.sh](scripts/top_three_disks.sh): Lists top three disks (and their details) according to their % utilization.
 6. [disk_report.sh](scripts/disk_report.sh): Checks all disks' utilization and sends report of critical disks via mail.
 7. [progressive_disk_test.sh](scripts/progressive_disk_test.sh): Divides disk utilization in different severity levels and accordingly sends a report about current disk utilization of the most utilized file system.
+8. [process.sh](scripts/process.sh): A generalised script used to start|stop|restart|check_status of a process.
 
 ## Mathematics.
 1. [table.sh](scripts/table.sh): Displays table of an entered positive/negative number (decimal/non-decimal) upto desired no. of multiples.
