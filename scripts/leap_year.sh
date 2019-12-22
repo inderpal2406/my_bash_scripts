@@ -33,5 +33,16 @@ else
 	echo "$year is not a leap year. February has 28 days in this year."
 fi
 
+## Compact logic to check leap year.
+## This compact logic is giving an error as if %400 -eq 0, then it should directly proceed, but instead it also evaluates the last condition with %100 -ne 0
+## Need to check
+#
+#if [ $(($year % 400)) -eq 0 ] || [ $(($year % 4)) -eq 0 ] && [ $(($year % 100)) -ne 0 ]
+#then
+#	echo "$year is a leap year. February has 29 days in this year."
+#else
+#	echo "$year is not a leap year. February has 28 days in this year."
+#fi
+
 echo
 echo "The script ends here."
