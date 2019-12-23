@@ -11,7 +11,9 @@ Contains bash scripts written and tested on Ubuntu 18.04 LTS.
 8. [penguin.sh](scripts/penguin.sh): A playful script which presents food item to Tux (penguin) as a command line argument.
 9. [weight.sh](scripts/weight.sh): A script which accepts weight in kilos and height in cms and displays a message if we are overweight or underweight.
 10. [file_info.sh](scripts/file_info.sh): A script to display information about a file, supplied as a command line argument.
-11. [zoo.sh](scriipts/zoo.sh): Script to demonstrate calling of another shell script from within a script. It calls [food.sh](scripts/food.sh)12. [address_book.sh](scripts/address_book.sh): To store contact details into an address book.
+11. [zoo.sh](scriipts/zoo.sh): Demonstrates calling of another shell script from within a script. It calls [food.sh](scripts/food.sh)
+12. [address_book.sh](scripts/address_book.sh): To store contact details into an address book.
+13. [census.sh](scripts/census.sh): To store population census data and assume default data according to gender.
 
 ## System Administration.
 1. [runlevel_service.sh](scripts/runlevel_service.sh): Interactive script to display user's HOME directory, terminal type and current runlevel services.
